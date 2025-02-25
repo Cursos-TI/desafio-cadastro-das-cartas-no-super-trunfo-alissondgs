@@ -31,24 +31,29 @@ int main() {
     printf("PIB:\n");
     scanf("%f", &pib);
 
-    printf("PONTOS TURISTICOS:\n");
+    printf("PONSTOS TURISTICOS:\n");
     scanf("%d", &turisticos);
 
 
+    printf("A DENSIDADE POPULACIONAL:\n");
+    scanf("%f", &densidade);
 
-densidade = (float) populacao / area;
-pibpercapita = (float) pib/populacao;
+    printf("PIB PER CAPITA:\n");
+    scanf("%f", &pibpercapita);
+
+
+
 
 
     printf("estado: %s\n", estado);
     printf("codigo: %s\n", codigo);
     printf("cidade: %s\n", cidade);
     printf("populacao:%d\n", populacao);
-    printf("area:%f\n", area);
-    printf("pib:%f\n", pib);
+    printf("area:%.6f\n", area);
+    printf("pib:%.6f\n", pib);
     printf("pontos turisticos:%d\n", turisticos);
-    printf("densidade: %f\n", densidade);
-    printf("pib per capita:  %f\n",(float) pibpercapita);
+    printf("densidade: %.6f\n", densidade);
+    printf("pib per capita: %.6f\n", pibpercapita);
 
     return 0;
 }
