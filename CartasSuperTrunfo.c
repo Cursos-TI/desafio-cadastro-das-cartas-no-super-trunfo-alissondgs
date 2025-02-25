@@ -35,11 +35,12 @@ int main() {
     scanf("%d", &turisticos);
 
 
-
+//DIVISAO PARA TER OS RESULTADOS
 densidade = (float) populacao / area;
 pibpercapita = (float) pib/populacao;
 
 
+//EXIBINDO AS RESPOSTAS
     printf("estado: %s\n", estado);
     printf("codigo: %s\n", codigo);
     printf("cidade: %s\n", cidade);
