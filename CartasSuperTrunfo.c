@@ -48,7 +48,7 @@ pibpercapita = (float) pib/populacao;
     printf("pib:%f\n", pib);
     printf("pontos turisticos:%d\n", turisticos);
     printf("densidade: %f\n", densidade);
-    printf("pib per capita:  %f\n",(float) pibpercapita);
+    printf("pib per capita:  %f\n",pibpercapita);
 
     return 0;
 }
