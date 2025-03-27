@@ -1,59 +1,91 @@
 #include <stdio.h>
 
 int main() {
-    char estado[50];
-    char codigo[50];
-    char cidade[50];
-    int populacao;
-    float area;
-    float pib;
-    int turisticos;
-    float densidade;
-    float pibpercapita;
 
-    printf("CARTA1\n");
-
-    printf("NOME DO ESTADO:\n");
-    scanf("%s", estado);
-
-    printf("NOME DO CODIGO:\n");
-    scanf("%s", codigo);
-
-    printf("QUAL CIDADE:\n");
-    scanf("%s", cidade);
-
-    printf("QUANTIDADE DE HABITANTES:\n");
-    scanf("%d", &populacao);
-
-    printf("AREA EM KM2:\n");
-    scanf("%f", &area);
-
-    printf("PIB:\n");
-    scanf("%f", &pib);
-
-    printf("PONSTOS TURISTICOS:\n");
-    scanf("%d", &turisticos);
+    //carta1//
+char estado1 = "SP";
+char codigo1 = "A1";
+char cidade1 = "São Paulo" ;
+int populacao1 = 44411238;
+float area1 = 1.521 ;
+float pib1 = 3500000000000;
+int turisticos1 = 33;
+float densidade1;
+float pibpercapita1;
 
 
-    printf("A DENSIDADE POPULACIONAL:\n");
-    scanf("%f", &densidade);
+ //carta2//
+char estado2 ="RJ";
+char codigo2 = "B2";
+char cidade2 = "Rio de Janeiro";
+int populacao2 = 6211223;
+float area2 = 1200;
+float pib2 = 1200000000000;
+int turisticos2 = 44;
+float densidade2 ;
+float pibpercapita2;
 
-    printf("PIB PER CAPITA:\n");
-    scanf("%f", &pibpercapita);
+printf("-------SUPER TRUNFO-------\n");
+
+     //carta1//  
+printf("CARTA1\n");
+
+printf("NOME DO ESTADO:%s", estado1);
+
+
+printf("CODIGO:");
+
+
+printf("NOME DA CIDADE:");
+
+
+printf("QUANTIDADE DE HABITANTES:");
+
+
+printf("AREA EM km²:");
+
+
+printf("PIB:");
+
+
+printf("PONSTOS TURISTICOS:");
 
 
 
 
 
-    printf("estado: %s\n", estado);
-    printf("codigo: %s\n", codigo);
-    printf("cidade: %s\n", cidade);
-    printf("populacao:%d\n", populacao);
-    printf("area:%.6f\n", area);
-    printf("pib:%.6f\n", pib);
-    printf("pontos turisticos:%d\n", turisticos);
-    printf("densidade: %.6f\n", densidade);
-    printf("pib per capita: %.6f\n", pibpercapita);
+
+
+
+
+  //carta2//
+
+printf ("CARTA 2\n");
+
+ printf("NOME DO ESTADO:");
+ 
+
+ printf("CODIGO:");
+
+
+printf("NOME DA CIDADE:");
+
+
+printf("QUANTIDADE DE HABITANTES:");
+
+
+printf("AREA EM km²:");
+
+
+printf("PIB:");
+
+
+printf("PONSTOS TURISTICOS:");
+
+
+
+ //carta1//
+
 
     return 0;
-}
+}   
