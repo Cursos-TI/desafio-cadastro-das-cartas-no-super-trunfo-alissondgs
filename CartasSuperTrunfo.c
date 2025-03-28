@@ -24,7 +24,7 @@ int main() {
     float densidade2;
     float pibpercapita2;
 
-    // Variável poder, que será responsável por somar os resultados
+    // Variável poder responsável por somar os resultados
     float poder1 = 0;
     float poder2 = 0;
 
@@ -42,13 +42,13 @@ int main() {
     scanf("%s", cidade1);
 
     printf("QUANTIDADE DE HABITANTES: ");
-    scanf("%ld", &populacao1); // Usando %ld para long int
+    scanf("%ld", &populacao1); 
 
     printf("AREA EM km²: ");
     scanf("%f", &area1);
 
     printf("PIB: ");
-    scanf("%lld", &pib1); // Usando %lld para long long int
+    scanf("%lld", &pib1); 
 
     printf("PONTOS TURISTICOS: ");
     scanf("%d", &turisticos1);
@@ -57,7 +57,7 @@ int main() {
     densidade1 = (float)populacao1 / area1;
     pibpercapita1 = (float)pib1 / populacao1;
 
-    // Atualizando a variável poder com os resultados de carta 1
+   
     poder1 += populacao1 + area1 + pib1 + turisticos1 + densidade1 + pibpercapita1;
 
     // Carta 2
@@ -87,10 +87,10 @@ int main() {
     densidade2 = (float)populacao2 / area2;
     pibpercapita2 = (float)pib2 / populacao2;
 
-    // Atualizando a variável poder com os resultados de carta 2
+  
     poder2 += populacao2 + area2 + pib2 + turisticos2 + densidade2 + pibpercapita2;
 
-    // Exibindo as informações da Carta 1
+    //Carta 1
     printf("CARTA 1:\n");
     printf("ESTADO: %s\n", estado1);
     printf("CODIGO: %s\n", codigo1);
@@ -104,7 +104,7 @@ int main() {
     printf("PODER TOTAL DA CARTA 1:%.2f",poder1);
 
 
-    // Exibindo as informações da Carta 2
+    //Carta 2
     printf("CARTA 2:\n");
     printf("ESTADO: %s\n", estado2);
     printf("CODIGO: %s\n", codigo2);
